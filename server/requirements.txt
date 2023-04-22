@@ -1,0 +1,4 @@
+Django==latest
+pymongo==latest
+openai==latest
+bson==latest

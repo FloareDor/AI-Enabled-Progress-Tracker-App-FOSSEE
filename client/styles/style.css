@@ -1,0 +1,145 @@
+body {
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    background-color: #1a1a1a;
+    /* background-color: white; */
+    color: white;
+}
+
+.navhead {
+    height: 5rem;
+    width: 100vw;
+}
+
+.companyName {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.companyName h1 {
+    font-size: 2rem;
+}
+.loginBut {
+    position: absolute;
+    right: 3rem;
+    padding: 0.7rem 1.4rem;
+    font-size: 1rem;
+    /* background-color: black; */
+    background-color: rgb(174, 198, 250);
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.loginBut:hover {
+    background-color: #1a1a1a;
+    border: 1px solid rgb(174, 198, 250);
+    color: rgb(174, 198, 250);
+
+}
+
+.selectCourse {
+    /* margin: 4rem 0 4rem 6rem; */
+    background-color: black;
+    border: 2px solid white;
+    border-style: solid solid solid solid;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 13px;
+    padding: 10px;
+    /* height: 30px; */
+    width: 200px;
+    font-family: 'Prata', serif;
+    color: white;
+    /* position: absolute; */
+    /* right: 5rem; */
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+}
+
+.selectMain {
+    width: 90%;
+    margin: auto;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selectMain div {
+    width: 11rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selectMain i {
+    font-size: 3rem;
+    color: rgb(174, 198, 250);
+}
+
+.taskHolder {
+    display: flex;
+    
+}
+
+.task {
+    width:24rem;
+    /* border:2px solid white; */
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #8ac92638;
+    border: 2px solid #8ac926;
+    /* background-color: rgb(251, 153, 153); */
+    border-radius: 2rem;
+    margin: 3rem;
+}
+.titleTask {
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    margin: auto;
+}
+.titleTask h1 {
+    font-size: 1rem;
+}
+.contentDiv {
+    width:80%;
+    margin: auto;
+    height: 9rem;
+    padding: 1rem;
+    /* background-color: #cb2e2e6d;; */
+    border-radius: 2rem;
+}
+.deadlineTask {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    width:80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.inputTask {
+    background-color: rgb(48, 48, 44);
+    border-color: aliceblue;
+}
+
+.inputTask input {
+    width: 25%;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    
+}
