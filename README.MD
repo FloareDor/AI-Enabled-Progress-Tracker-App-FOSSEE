@@ -1,4 +1,4 @@
-AI-Enabled Progress Tracker App
+# AI-Enabled Progress Tracker App
 Introduction
 
 The AI-Enabled Progress Tracker App is a web application built using React.js, Django, and MongoDB. The app allows users to track their daily tasks, prioritize them, and get motivational quotes to stay motivated. The app's AI capability helps users optimize their workflow by suggesting the best order in which to complete their tasks.
